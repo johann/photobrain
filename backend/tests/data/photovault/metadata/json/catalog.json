@@ -1,0 +1,74 @@
+{
+  "shoots": [
+    {
+      "id": "shoot-1",
+      "name": "Golden Gate Fog",
+      "captured_at": "2024-05-01T06:00:00+00:00",
+      "location": "San Francisco, CA",
+      "tags": ["fog", "bridge", "sunrise"]
+    },
+    {
+      "id": "shoot-2",
+      "name": "Night City",
+      "captured_at": "2024-04-18T20:00:00+00:00",
+      "location": "Tokyo",
+      "tags": ["night", "city"]
+    }
+  ],
+  "photos": [
+    {
+      "id": "photo-1",
+      "shoot_id": "shoot-1",
+      "filename": "DSC0001.RAW",
+      "captured_at": "2024-05-01T05:00:00+00:00",
+      "rating": 4,
+      "labels": ["fog", "bridge"],
+      "preview_path": "/Volumes/PhotoVault/library/previews/photo-1.jpg"
+    },
+    {
+      "id": "photo-2",
+      "shoot_id": "shoot-1",
+      "filename": "DSC0002.RAW",
+      "captured_at": "2024-05-01T05:10:00+00:00",
+      "rating": 3,
+      "labels": ["sunrise"],
+      "preview_path": "/Volumes/PhotoVault/library/previews/photo-2.jpg"
+    },
+    {
+      "id": "photo-3",
+      "shoot_id": "shoot-2",
+      "filename": "DSC1001.RAW",
+      "captured_at": "2024-04-18T17:00:00+00:00",
+      "rating": 5,
+      "labels": ["city", "night"],
+      "preview_path": "/Volumes/PhotoVault/library/previews/photo-3.jpg"
+    }
+  ],
+  "timelapses": [
+    {
+      "id": "tl-1",
+      "title": "Fog Rolling In",
+      "shoot_ids": ["shoot-1"],
+      "frame_count": 240,
+      "video_path": "/Volumes/PhotoVault/timelapse/tl-1.mp4"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "name": "Ingest SD Card",
+      "status": "completed",
+      "created_at": "2024-05-02T04:00:00+00:00",
+      "updated_at": "2024-05-02T04:15:00+00:00",
+      "log_path": "/Volumes/PhotoVault/logs/job-1.log"
+    },
+    {
+      "id": "job-2",
+      "name": "Process New Photos",
+      "status": "running",
+      "created_at": "2024-05-02T07:00:00+00:00",
+      "updated_at": "2024-05-02T07:25:00+00:00",
+      "log_path": "/Volumes/PhotoVault/logs/job-2.log"
+    }
+  ]
+}
