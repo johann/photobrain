@@ -263,7 +263,9 @@ NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
 
 ## 11. Setup Instructions
 
-(backend and frontend commands unchanged)
+- **MacBook walkthrough:** Follow [`docs/instructions.md`](docs/instructions.md) for a step-by-step guide to prepare the Intel MacBook Pro host, install dependencies, and wire up the launch agents.
+- **Raspberry Pi 5 walkthrough:** See [`docs/pi-instructions.md`](docs/pi-instructions.md) for end-to-end setup on Raspberry Pi OS, including drive mounting and optional headless systemd scheduling.
+- Backend and frontend command references remain unchanged.
 
 ## 12. CI Automation
 
