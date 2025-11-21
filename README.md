@@ -263,7 +263,8 @@ NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
 
 ## 11. Setup Instructions
 
-(backend and frontend commands unchanged)
+- **MacBook walkthrough:** Follow [`docs/instructions.md`](docs/instructions.md) for a step-by-step guide to prepare the Intel MacBook Pro host, install dependencies, and wire up the launch agents.
+- Backend and frontend command references remain unchanged.
 
 ## 12. CI Automation
 
